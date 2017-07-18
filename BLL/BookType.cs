@@ -10,7 +10,8 @@ namespace shop.BLL
 	/// </summary>
 	public partial class BookType
 	{
-		private readonly shop.DAL.BookType dal=new shop.DAL.BookType();
+		//private readonly shop.DAL.BookType dal=new shop.DAL.BookType();
+
 		public BookType()
 		{}
         #region  BasicMethod

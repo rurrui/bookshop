@@ -8,7 +8,7 @@ namespace shop.DAL
 	/// <summary>
 	/// 数据访问类:BookType
 	/// </summary>
-	public partial class BookType:shop.IDal.IBookType
+	public partial class BookType
 	{
 		public BookType()
 		{}

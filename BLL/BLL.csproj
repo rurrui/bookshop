@@ -133,9 +133,17 @@
       <Project>{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DalFactory\DalFactory.csproj">
+      <Project>{56cc7f0c-4add-4f64-b621-cee7439f0fb8}</Project>
+      <Name>DalFactory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{9FE00521-3A8B-42B1-814E-585E99407B2E}</Project>
       <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDal\IDal.csproj">
+      <Project>{cfd9cb58-3a15-4060-b755-19ea6b133859}</Project>
+      <Name>IDal</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>

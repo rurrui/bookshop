@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dal1", "Dal1", "{09872D4D-B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDal", "IDal\IDal.csproj", "{CFD9CB58-3A15-4060-B755-19EA6B133859}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalFactory", "DalFactory\DalFactory.csproj", "{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -100,6 +102,18 @@ Global
 		{CFD9CB58-3A15-4060-B755-19EA6B133859}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CFD9CB58-3A15-4060-B755-19EA6B133859}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{CFD9CB58-3A15-4060-B755-19EA6B133859}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Debug|.NET.Build.0 = Debug|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Release|.NET.ActiveCfg = Release|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Release|.NET.Build.0 = Release|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,5 +121,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9FE00521-3A8B-42B1-814E-585E99407B2E} = {09872D4D-B96A-40AA-8527-8144FCA3BA21}
 		{CFD9CB58-3A15-4060-B755-19EA6B133859} = {09872D4D-B96A-40AA-8527-8144FCA3BA21}
+		{56CC7F0C-4ADD-4F64-B621-CEE7439F0FB8} = {09872D4D-B96A-40AA-8527-8144FCA3BA21}
 	EndGlobalSection
 EndGlobal
