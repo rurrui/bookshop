@@ -188,13 +188,7 @@ namespace shop.DAL
 			}
 			return model;
 		}
-        /// <summary>
-		/// 获得数据列表
-		/// </summary>
-		public DataSet GetAllList()
-        {
-            return GetList("");
-        }
+      
         /// <summary>
         /// 获得数据列表
         /// </summary>
