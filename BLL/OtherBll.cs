@@ -9,7 +9,10 @@ namespace shop.BLL
 {
    public partial class BookType
     {
-        private readonly IBookType dal = SimpleFactory.GetBookTypeDal();
+        //简单工厂
+        // private readonly IBookType dal = SimpleFactory.GetBookTypeDal();
+        //抽象工厂
+        private readonly IBookType dal = AbstractFactory.GetBookType();
         public bool Delete(shop.Model.BookType booktype)
         {
             return Delete(booktype.TypeId);

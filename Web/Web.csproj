@@ -84,6 +84,7 @@
     <Content Include="Controls\copyright.ascx" />
     <Content Include="Global.asax" />
     <Content Include="Test\BookTypeTest.aspx" />
+    <Content Include="Test\BookTypeTest2.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -365,6 +366,13 @@
     </Compile>
     <Compile Include="Test\BookTypeTest.aspx.designer.cs">
       <DependentUpon>BookTypeTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test\BookTypeTest2.aspx.cs">
+      <DependentUpon>BookTypeTest2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test\BookTypeTest2.aspx.designer.cs">
+      <DependentUpon>BookTypeTest2.aspx</DependentUpon>
     </Compile>
     <Compile Include="ValidateCode.aspx.cs">
       <DependentUpon>ValidateCode.aspx</DependentUpon>

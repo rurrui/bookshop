@@ -9,7 +9,6 @@ namespace shop.IDal
 {
     public partial interface IBookType
     {
-
         int GetMaxId();
         bool Exists(int TypeId);
         int Add(shop.Model.BookType model);
