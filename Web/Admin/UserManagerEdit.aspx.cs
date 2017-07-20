@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace shop.Web.Admin
 {
-    public partial class UserManagerEdit : System.Web.UI.Page
+    public partial class UserManagerEdit : MyPageBase//System.Web.UI.Page
     {
         protected shop.Model.UserManager UMModel { get; set; }
         protected void Page_Load(object sender, EventArgs e)

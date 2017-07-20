@@ -99,6 +99,7 @@
     <Content Include="Admin\left.files\images\spacer.gif" />
     <Content Include="Admin\left.files\title.gif" />
     <Content Include="Admin\left.files\titles.gif" />
+    <Content Include="Admin\Login.aspx" />
     <Content Include="Admin\main.aspx" />
     <Content Include="Admin\UserManagerAdd.aspx" />
     <Content Include="Admin\UserManagerEdit.aspx" />
@@ -234,12 +235,22 @@
     <Compile Include="Admin\Left.aspx.designer.cs">
       <DependentUpon>Left.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\main.aspx.cs">
       <DependentUpon>main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\main.aspx.designer.cs">
       <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MyPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\UserManagerAdd.aspx.cs">
       <DependentUpon>UserManagerAdd.aspx</DependentUpon>
@@ -280,6 +291,9 @@
     <Compile Include="Test\BookTypeTest2.aspx.designer.cs">
       <DependentUpon>BookTypeTest2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="VCode.ashx.cs">
+      <DependentUpon>VCode.ashx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">
@@ -307,6 +321,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\UserManagerRemove.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VCode.ashx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

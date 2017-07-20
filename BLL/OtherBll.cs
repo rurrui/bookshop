@@ -25,5 +25,12 @@ namespace shop.BLL
         {
             return dal.Update(model,isPwdEdit);
         }
+        /// <summary>
+        /// 是否存在该记录
+        /// </summary>
+        public bool Exists(shop.Model.UserManager model,out int id)
+        {
+            return dal.Exists(model,out id);
+        }
     }
 }
