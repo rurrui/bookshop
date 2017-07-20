@@ -18,4 +18,12 @@ namespace shop.BLL
             return Delete(booktype.TypeId);
         }
     }
+    public partial class UserManager
+    {
+        //更新数据
+        public bool Update(shop.Model.UserManager model,bool isPwdEdit)
+        {
+            return dal.Update(model,isPwdEdit);
+        }
+    }
 }

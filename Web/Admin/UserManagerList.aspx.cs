@@ -15,7 +15,7 @@ namespace shop.Web.Admin
         {
             shop.BLL.UserManager umBll = new BLL.UserManager();
             int pageIndex = 1;
-            int pageSize = 1;
+            int pageSize = 5;
             //接收分页信息
             if (!string.IsNullOrEmpty(Request["pIndex"]))
             {

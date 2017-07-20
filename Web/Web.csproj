@@ -100,7 +100,12 @@
     <Content Include="Admin\left.files\title.gif" />
     <Content Include="Admin\left.files\titles.gif" />
     <Content Include="Admin\main.aspx" />
+    <Content Include="Admin\UserManagerAdd.aspx" />
+    <Content Include="Admin\UserManagerEdit.aspx" />
     <Content Include="Admin\UserManagerList.aspx" />
+    <Content Include="js\calendar1.js" />
+    <Content Include="js\CheckBox.js" />
+    <Content Include="js\jquery-3.2.1.min.js" />
     <Content Include="layui\build\css\layui.css" />
     <Content Include="layui\build\css\layui.mobile.css" />
     <Content Include="layui\build\css\modules\code.css" />
@@ -236,12 +241,29 @@
     <Compile Include="Admin\main.aspx.designer.cs">
       <DependentUpon>main.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\UserManagerAdd.aspx.cs">
+      <DependentUpon>UserManagerAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserManagerAdd.aspx.designer.cs">
+      <DependentUpon>UserManagerAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserManagerEdit.aspx.cs">
+      <DependentUpon>UserManagerEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserManagerEdit.aspx.designer.cs">
+      <DependentUpon>UserManagerEdit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\UserManagerList.aspx.cs">
       <DependentUpon>UserManagerList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\UserManagerList.aspx.designer.cs">
       <DependentUpon>UserManagerList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserManagerRemove.ashx.cs">
+      <DependentUpon>UserManagerRemove.ashx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\BookTypeTest.aspx.cs">
@@ -282,6 +304,9 @@
     <Content Include="layui\build\font\iconfont.eot" />
     <Content Include="layui\build\font\iconfont.ttf" />
     <Content Include="layui\build\font\iconfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\UserManagerRemove.ashx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
