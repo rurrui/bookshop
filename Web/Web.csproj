@@ -80,8 +80,127 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Controls\checkright.ascx" />
-    <Content Include="Controls\copyright.ascx" />
+    <Content Include="Admin\head.aspx" />
+    <Content Include="Admin\inc\css.css" />
+    <Content Include="Admin\inc\style.css" />
+    <Content Include="Admin\Index.aspx" />
+    <Content Include="Admin\Left.aspx" />
+    <Content Include="Admin\left.files\admin_left_1.gif" />
+    <Content Include="Admin\left.files\admin_left_2.gif" />
+    <Content Include="Admin\left.files\admin_left_9.gif" />
+    <Content Include="Admin\left.files\images\graph.gif" />
+    <Content Include="Admin\left.files\images\index_16.gif" />
+    <Content Include="Admin\left.files\images\index_18.gif" />
+    <Content Include="Admin\left.files\images\index_19.gif" />
+    <Content Include="Admin\left.files\images\index_20.gif" />
+    <Content Include="Admin\left.files\images\index_21.gif" />
+    <Content Include="Admin\left.files\images\index_22.gif" />
+    <Content Include="Admin\left.files\images\index_23.gif" />
+    <Content Include="Admin\left.files\images\spacer.gif" />
+    <Content Include="Admin\left.files\title.gif" />
+    <Content Include="Admin\left.files\titles.gif" />
+    <Content Include="Admin\main.aspx" />
+    <Content Include="Admin\UserManagerList.aspx" />
+    <Content Include="layui\build\css\layui.css" />
+    <Content Include="layui\build\css\layui.mobile.css" />
+    <Content Include="layui\build\css\modules\code.css" />
+    <Content Include="layui\build\css\modules\laydate\icon.png" />
+    <Content Include="layui\build\css\modules\laydate\laydate.css" />
+    <Content Include="layui\build\css\modules\layer\default\icon-ext.png" />
+    <Content Include="layui\build\css\modules\layer\default\icon.png" />
+    <Content Include="layui\build\css\modules\layer\default\layer.css" />
+    <Content Include="layui\build\css\modules\layer\default\loading-0.gif" />
+    <Content Include="layui\build\css\modules\layer\default\loading-1.gif" />
+    <Content Include="layui\build\css\modules\layer\default\loading-2.gif" />
+    <Content Include="layui\build\font\iconfont.svg" />
+    <Content Include="layui\build\images\face\0.gif" />
+    <Content Include="layui\build\images\face\1.gif" />
+    <Content Include="layui\build\images\face\10.gif" />
+    <Content Include="layui\build\images\face\11.gif" />
+    <Content Include="layui\build\images\face\12.gif" />
+    <Content Include="layui\build\images\face\13.gif" />
+    <Content Include="layui\build\images\face\14.gif" />
+    <Content Include="layui\build\images\face\15.gif" />
+    <Content Include="layui\build\images\face\16.gif" />
+    <Content Include="layui\build\images\face\17.gif" />
+    <Content Include="layui\build\images\face\18.gif" />
+    <Content Include="layui\build\images\face\19.gif" />
+    <Content Include="layui\build\images\face\2.gif" />
+    <Content Include="layui\build\images\face\20.gif" />
+    <Content Include="layui\build\images\face\21.gif" />
+    <Content Include="layui\build\images\face\22.gif" />
+    <Content Include="layui\build\images\face\23.gif" />
+    <Content Include="layui\build\images\face\24.gif" />
+    <Content Include="layui\build\images\face\25.gif" />
+    <Content Include="layui\build\images\face\26.gif" />
+    <Content Include="layui\build\images\face\27.gif" />
+    <Content Include="layui\build\images\face\28.gif" />
+    <Content Include="layui\build\images\face\29.gif" />
+    <Content Include="layui\build\images\face\3.gif" />
+    <Content Include="layui\build\images\face\30.gif" />
+    <Content Include="layui\build\images\face\31.gif" />
+    <Content Include="layui\build\images\face\32.gif" />
+    <Content Include="layui\build\images\face\33.gif" />
+    <Content Include="layui\build\images\face\34.gif" />
+    <Content Include="layui\build\images\face\35.gif" />
+    <Content Include="layui\build\images\face\36.gif" />
+    <Content Include="layui\build\images\face\37.gif" />
+    <Content Include="layui\build\images\face\38.gif" />
+    <Content Include="layui\build\images\face\39.gif" />
+    <Content Include="layui\build\images\face\4.gif" />
+    <Content Include="layui\build\images\face\40.gif" />
+    <Content Include="layui\build\images\face\41.gif" />
+    <Content Include="layui\build\images\face\42.gif" />
+    <Content Include="layui\build\images\face\43.gif" />
+    <Content Include="layui\build\images\face\44.gif" />
+    <Content Include="layui\build\images\face\45.gif" />
+    <Content Include="layui\build\images\face\46.gif" />
+    <Content Include="layui\build\images\face\47.gif" />
+    <Content Include="layui\build\images\face\48.gif" />
+    <Content Include="layui\build\images\face\49.gif" />
+    <Content Include="layui\build\images\face\5.gif" />
+    <Content Include="layui\build\images\face\50.gif" />
+    <Content Include="layui\build\images\face\51.gif" />
+    <Content Include="layui\build\images\face\52.gif" />
+    <Content Include="layui\build\images\face\53.gif" />
+    <Content Include="layui\build\images\face\54.gif" />
+    <Content Include="layui\build\images\face\55.gif" />
+    <Content Include="layui\build\images\face\56.gif" />
+    <Content Include="layui\build\images\face\57.gif" />
+    <Content Include="layui\build\images\face\58.gif" />
+    <Content Include="layui\build\images\face\59.gif" />
+    <Content Include="layui\build\images\face\6.gif" />
+    <Content Include="layui\build\images\face\60.gif" />
+    <Content Include="layui\build\images\face\61.gif" />
+    <Content Include="layui\build\images\face\62.gif" />
+    <Content Include="layui\build\images\face\63.gif" />
+    <Content Include="layui\build\images\face\64.gif" />
+    <Content Include="layui\build\images\face\65.gif" />
+    <Content Include="layui\build\images\face\66.gif" />
+    <Content Include="layui\build\images\face\67.gif" />
+    <Content Include="layui\build\images\face\68.gif" />
+    <Content Include="layui\build\images\face\69.gif" />
+    <Content Include="layui\build\images\face\7.gif" />
+    <Content Include="layui\build\images\face\70.gif" />
+    <Content Include="layui\build\images\face\71.gif" />
+    <Content Include="layui\build\images\face\8.gif" />
+    <Content Include="layui\build\images\face\9.gif" />
+    <Content Include="layui\build\layui.js" />
+    <Content Include="layui\build\lay\dest\layui.all.js" />
+    <Content Include="layui\build\lay\modules\code.js" />
+    <Content Include="layui\build\lay\modules\element.js" />
+    <Content Include="layui\build\lay\modules\flow.js" />
+    <Content Include="layui\build\lay\modules\form.js" />
+    <Content Include="layui\build\lay\modules\jquery.js" />
+    <Content Include="layui\build\lay\modules\laydate.js" />
+    <Content Include="layui\build\lay\modules\layedit.js" />
+    <Content Include="layui\build\lay\modules\layer.js" />
+    <Content Include="layui\build\lay\modules\laypage.js" />
+    <Content Include="layui\build\lay\modules\laytpl.js" />
+    <Content Include="layui\build\lay\modules\mobile.js" />
+    <Content Include="layui\build\lay\modules\tree.js" />
+    <Content Include="layui\build\lay\modules\upload.js" />
+    <Content Include="layui\build\lay\modules\util.js" />
     <Content Include="Test\BookTypeTest.aspx" />
     <Content Include="Test\BookTypeTest2.aspx" />
     <Content Include="Web.config">
@@ -89,19 +208,40 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\CheckRight.ascx.cs">
-      <DependentUpon>checkright.ascx</DependentUpon>
+    <Compile Include="Admin\head.aspx.cs">
+      <DependentUpon>head.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Controls\CheckRight.ascx.designer.cs">
-      <DependentUpon>checkright.ascx</DependentUpon>
+    <Compile Include="Admin\head.aspx.designer.cs">
+      <DependentUpon>head.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Controls\CopyRight.ascx.cs">
-      <DependentUpon>copyright.ascx</DependentUpon>
+    <Compile Include="Admin\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Controls\CopyRight.ascx.designer.cs">
-      <DependentUpon>copyright.ascx</DependentUpon>
+    <Compile Include="Admin\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Left.aspx.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Left.aspx.designer.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserManagerList.aspx.cs">
+      <DependentUpon>UserManagerList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserManagerList.aspx.designer.cs">
+      <DependentUpon>UserManagerList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\BookTypeTest.aspx.cs">
@@ -135,7 +275,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Components\" />
+    <Folder Include="Controls\" />
     <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="layui\build\font\iconfont.eot" />
+    <Content Include="layui\build\font\iconfont.ttf" />
+    <Content Include="layui\build\font\iconfont.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
