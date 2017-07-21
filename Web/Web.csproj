@@ -80,6 +80,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\BookTypeAdd.aspx" />
+    <Content Include="Admin\BookTypeEdit.aspx" />
     <Content Include="Admin\BookTypeList.aspx" />
     <Content Include="Admin\head.aspx" />
     <Content Include="Admin\inc\css.css" />
@@ -232,12 +234,29 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\BookTypeAdd.aspx.cs">
+      <DependentUpon>BookTypeAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BookTypeAdd.aspx.designer.cs">
+      <DependentUpon>BookTypeAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BookTypeEdit.aspx.cs">
+      <DependentUpon>BookTypeEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BookTypeEdit.aspx.designer.cs">
+      <DependentUpon>BookTypeEdit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\BookTypeList.aspx.cs">
       <DependentUpon>BookTypeList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\BookTypeList.aspx.designer.cs">
       <DependentUpon>BookTypeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BookTypeRemove.ashx.cs">
+      <DependentUpon>BookTypeRemove.ashx</DependentUpon>
     </Compile>
     <Compile Include="Admin\head.aspx.cs">
       <DependentUpon>head.aspx</DependentUpon>
@@ -350,6 +369,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="VCode.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\BookTypeRemove.ashx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

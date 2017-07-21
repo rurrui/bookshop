@@ -13,5 +13,6 @@ namespace shop.Web
         public string name { get; set; }
         public bool open { get; set; }
         public bool isParent { get; set; }
+        public string click { get; set; }
     }
 }

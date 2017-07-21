@@ -26,7 +26,7 @@ namespace shop.Web.Admin
                     pId = Convert.ToInt32(row["TypeParentId"]),
                     name = row["TypeTitle"].ToString(),
                     open = true,
-                    isParent=true,
+                    //isParent=true,
                 });
             }
             JavaScriptSerializer js = new JavaScriptSerializer();
