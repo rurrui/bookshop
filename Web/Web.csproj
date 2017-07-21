@@ -104,9 +104,25 @@
     <Content Include="Admin\UserManagerAdd.aspx" />
     <Content Include="Admin\UserManagerEdit.aspx" />
     <Content Include="Admin\UserManagerList.aspx" />
+    <Content Include="Context\zTreeStyle\img\diy\1_close.png" />
+    <Content Include="Context\zTreeStyle\img\diy\1_open.png" />
+    <Content Include="Context\zTreeStyle\img\diy\2.png" />
+    <Content Include="Context\zTreeStyle\img\diy\3.png" />
+    <Content Include="Context\zTreeStyle\img\diy\4.png" />
+    <Content Include="Context\zTreeStyle\img\diy\5.png" />
+    <Content Include="Context\zTreeStyle\img\diy\6.png" />
+    <Content Include="Context\zTreeStyle\img\diy\7.png" />
+    <Content Include="Context\zTreeStyle\img\diy\8.png" />
+    <Content Include="Context\zTreeStyle\img\diy\9.png" />
+    <Content Include="Context\zTreeStyle\img\line_conn.gif" />
+    <Content Include="Context\zTreeStyle\img\loading.gif" />
+    <Content Include="Context\zTreeStyle\img\zTreeStandard.gif" />
+    <Content Include="Context\zTreeStyle\img\zTreeStandard.png" />
+    <Content Include="Context\zTreeStyle\zTreeStyle.css" />
     <Content Include="js\calendar1.js" />
     <Content Include="js\CheckBox.js" />
     <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\jquery.ztree.core-3.5.min.js" />
     <Content Include="layui\build\css\layui.css" />
     <Content Include="layui\build\css\layui.mobile.css" />
     <Content Include="layui\build\css\modules\code.css" />
@@ -209,6 +225,7 @@
     <Content Include="layui\build\lay\modules\util.js" />
     <Content Include="Test\BookTypeTest.aspx" />
     <Content Include="Test\BookTypeTest2.aspx" />
+    <Content Include="Test\ZTree.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
