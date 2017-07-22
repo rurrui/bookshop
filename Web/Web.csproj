@@ -122,9 +122,11 @@
     <Content Include="Context\zTreeStyle\img\zTreeStandard.gif" />
     <Content Include="Context\zTreeStyle\img\zTreeStandard.png" />
     <Content Include="Context\zTreeStyle\zTreeStyle.css" />
+    <Content Include="js\ajaxfileupload.js" />
     <Content Include="js\calendar1.js" />
     <Content Include="js\CheckBox.js" />
     <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\jquery.ajaxfileupload.js" />
     <Content Include="js\jquery.ztree.core-3.5.min.js" />
     <Content Include="layui\build\css\layui.css" />
     <Content Include="layui\build\css\layui.mobile.css" />
@@ -228,6 +230,7 @@
     <Content Include="layui\build\lay\modules\util.js" />
     <Content Include="Test\BookTypeTest.aspx" />
     <Content Include="Test\BookTypeTest2.aspx" />
+    <Content Include="Test\FileUploadAjax.aspx" />
     <Content Include="Test\ZTree.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -336,6 +339,16 @@
     <Compile Include="Test\BookTypeTest2.aspx.designer.cs">
       <DependentUpon>BookTypeTest2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Test\FileUploadAjax.ashx.cs">
+      <DependentUpon>FileUploadAjax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FileUploadAjax.aspx.cs">
+      <DependentUpon>FileUploadAjax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test\FileUploadAjax.aspx.designer.cs">
+      <DependentUpon>FileUploadAjax.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VCode.ashx.cs">
       <DependentUpon>VCode.ashx</DependentUpon>
     </Compile>
@@ -357,6 +370,7 @@
   <ItemGroup>
     <Folder Include="Components\" />
     <Folder Include="Controls\" />
+    <Folder Include="Cover\" />
     <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
@@ -372,6 +386,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\BookTypeRemove.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Test\FileUploadAjax.ashx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
